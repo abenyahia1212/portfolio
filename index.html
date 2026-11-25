@@ -95,7 +95,7 @@
   .edu-line b{ color:var(--ink-2); font-weight:700; }
 
   .stat-strip{
-    display:grid; grid-template-columns:repeat(4, 1fr); gap:1px;
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:1px;
     background:var(--line-soft); border:1px solid var(--line-soft);
     border-radius:var(--radius); overflow:hidden; margin-top:44px;
   }
@@ -261,7 +261,7 @@
     <p class="kicker">Portfolio — Toronto, Canada</p>
     <h1>Abdelaziz <em>Benyahia</em></h1>
     <p class="roles">Game Producer · Senior Product Manager · Game Developer</p>
-    <p class="pitch">I'm a Canadian game producer — I ship games and products end to end — from <strong>solo-developing a live mobile title for four years</strong>, to <strong>leading a 10-developer team on AI platforms</strong>, to <strong>founding a board-game company</strong>. I build, I produce, I deliver.</p>
+    <p class="pitch">I'm a Canadian game producer — I ship games and products end to end — from <strong>solo-developing a live mobile title for four years</strong>, to <strong>leading a 10-developer team on AI platforms</strong>, to <strong>co-founding a board-game company</strong>. I build, I produce, I deliver.</p>
 
     <div class="contact-row">
       <a class="chip-link" href="mailto:severin1212@gmail.com">
@@ -285,6 +285,8 @@
       <div class="stat"><div class="n">10</div><div class="l">Developers led across 7 concurrent initiatives</div></div>
       <div class="stat"><div class="n">4 <i>yrs</i></div><div class="l">Sole developer on a live mobile strategy game</div></div>
       <div class="stat"><div class="n">2<i>+</i>1</div><div class="l">Board games published — a third in development</div></div>
+      <div class="stat"><div class="n">10<i>x</i></div><div class="l">Signing volume after the AI chatbot (~100 → ~1,000 videos/week)</div></div>
+      <div class="stat"><div class="n">2 wks → 1–2 days</div><div class="l">Feature delivery with AI prototyping (was 2 weeks)</div></div>
     </div>
   </div>
 </div>
@@ -293,7 +295,7 @@
 <section id="case-studies">
   <div class="wrap">
     <div class="sec-head"><h2>Featured Case Studies</h2><span class="tag">Product leadership · 2020 — present</span></div>
-    <p class="sec-sub">The two most recent chapters: running product and a 10-developer team on AI platforms at a scaling startup, and founding a game company from scratch.</p>
+    <p class="sec-sub">The two most recent chapters: running product and a 10-developer team on AI platforms at a scaling startup, and co-founding a game company from scratch.</p>
 
     <article class="case">
       <div class="case-top">
@@ -305,11 +307,20 @@
       </div>
       <p class="lead">I led product and a <b>10-developer team across 7 concurrent initiatives</b> while the company scaled from ~20 to ~100 employees. Every initiative started with a business case I built — cost, expected return, risk — and was tracked on adoption and commercial performance after launch.</p>
       
+      <div class="case-metrics">
+        <div class="metric"><b>10x</b> signing volume</div>
+        <div class="metric">Feature delivery <b>2 weeks → 1–2 days</b></div>
+        <div class="metric">Researcher roles <b>−80%</b></div>
+        <div class="metric"><b>100,000+</b> signed videos</div>
+      </div>
       <div class="shipped">
-        <div class="ship"><span class="dot"></span><p><b>AI licensing chatbot</b> — automated a manual licensing workflow and cut headcount costs.</p></div>
-        <div class="ship"><span class="dot"></span><p><b>AI video-sourcing platform</b> — frontend and backend agents that automate video sourcing end to end.</p></div>
-        <div class="ship"><span class="dot"></span><p><b>IP Shield</b> — a subscription SaaS product: clients upload video libraries, the system fingerprints them, searches and monitors pages, generates match listings, and makes claims easy. ~6 months to build; video-matching accuracy was the hardest problem.</p></div>
-        <div class="ship"><span class="dot"></span><p><b>Centralized CRM</b> — one tool unifying every team, synced with rights-management tooling and YouTube rights management.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>AI licensing chatbot</b> — took signings from ~100 to ~1,000 videos a week in its first month, at a 1–2% error rate, running 24/7. Licensing became a volume business instead of a manual queue.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>Judge layer</b> — automated regression debugging for the chatbot: intent classification, message language, and legal exclusive-rights contracts — catching bad outputs before they reached clients.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>AI video-sourcing platform</b> — frontend and backend agents that automated video sourcing end to end.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>AI prototyping workflow</b> — mock-ups plus structured markdown specs cut feature delivery from 2 weeks to 1–2 days.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>Morning signals tool</b> — scanned signals across all apps and projects overnight and flagged what needed me before standup.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>IP Shield</b> — a subscription SaaS product I wrote the business case for: clients uploaded video libraries, the system fingerprinted them, searched and monitored pages, generated match listings, and made claims easy. ~6 months to build; video-matching accuracy was the hardest problem.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>Centralized CRM</b> — one tool that unified every team, synced with rights-management tooling and YouTube rights management.</p></div>
         <div class="ship"><span class="dot"></span><p><b>Contract system</b> — in-house forms with a full audit trail, built for international copyright compliance.</p></div>
         <div class="ship"><span class="dot"></span><p><b>Ops tooling</b> — in-house video review tool, Slack/Sentry automations, MSN deployment, Facebook/Instagram chatbot configurations.</p></div>
       </div>
@@ -325,14 +336,14 @@
       <div class="case-top">
         <div>
           <h3>Scar Games</h3>
-          <p class="role">Founder &amp; Game Designer</p>
+          <p class="role">Co-founder &amp; Game Designer</p>
         </div>
         <p class="dates">2020 — PRESENT</p>
       </div>
-      <p class="lead">I founded <b>Tunisia's first successful board-game brand</b> — designed and published two board games, including the flagship <b>El Makina</b> ("the machine" in Tunisian Arabic), with a third title in development. Then I took the catalog digital.</p>
+      <p class="lead">I co-founded <b>Tunisia's first successful board-game brand</b> — designed and published two board games, including the flagship <b>El Makina</b> ("the machine" in Tunisian Arabic), with a third title in development. Then I took the catalog digital.</p>
       <div class="shipped">
-        <div class="ship"><span class="dot"></span><p><b>Multiplayer web platform</b> — directed a contracted team that digitized the catalog (flagship title plus chess/dominoes-style classics) in 6 months.</p></div>
-        <div class="ship"><span class="dot"></span><p><b>Live and stable</b> — hundreds of concurrent players with no downtime; monetization system now in progress.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>Multiplayer web platform</b> — took the board-game catalog to a live service: 2,000+ users in the first 2 months, hundreds of concurrent players, zero downtime. A contracted team built it in 6 months.</p></div>
+        <div class="ship"><span class="dot"></span><p><b>From catalog to live service</b> — rewards and skins monetization in progress.</p></div>
         <div class="ship"><span class="dot"></span><p><b>Custom CRM</b> — built to automate operations and tracking across the business.</p></div>
         <div class="ship"><span class="dot"></span><p><b>Full company building</b> — recruited and structured cross-functional teams across design, production, and marketing, and set the business up to run independently.</p></div>
       </div>
@@ -364,7 +375,7 @@
         <div class="card-body">
           <div class="card-head"><h3>MassAttack</h3><span class="year">2019–2023</span></div>
           <p class="org">Efreet Corp · Live mobile strategy game · Sole developer, 4 years</p>
-          <p>I inherited the <b>entire codebase</b> of a live mobile strategy game from a senior developer, reverse-engineered it, and rebuilt it to stand on its feet — then kept it live and growing for four years: end-to-end gameplay features in C#/Unity, UI built from artist designs, <b>game balance via spreadsheets and data modeling</b>, tutorials, animated VFX, iOS and Google Play features, a <b>content pipeline for over-the-air updates</b>, and the multiplayer migration from <b>GameSparks to Beamable</b> with the game still running.</p>
+          <p>I inherited the <b>entire codebase</b> of a live mobile strategy game from a senior developer, reverse-engineered it, and rebuilt it to stand on its feet — then kept it live and growing for four years: end-to-end gameplay features in C#/Unity, UI built from artist designs, <b>game balance via spreadsheets and data modeling</b>, tutorials, animated VFX, iOS and Google Play features, a <b>content pipeline for over-the-air updates</b>, and the multiplayer migration from <b>GameSparks to Beamable</b> with the game still running and retention protected. The Malaysia alpha drew a few thousand players, and the game was featured on iOS and Google Play.</p>
           <div class="tags"><span class="tagchip">Unity</span><span class="tagchip">C#</span><span class="tagchip">Live ops</span><span class="tagchip">Beamable</span><span class="tagchip">Addressables + AWS S3</span><span class="tagchip">Game balance</span></div>
         </div>
       </article>
@@ -397,7 +408,7 @@
         <div class="card-body">
           <div class="card-head"><h3>The Universim</h3><span class="year">2019</span></div>
           <p class="org">Crytivo Games · Freelance · Remote, Tunisia → California</p>
-          <p>Task-based freelance work on the god-game RTS <b>The Universim</b>: I modified the game's <b>AI</b>, fixed bugs, and added new content. The game went on to sell <b>over 200,000 copies on Steam</b>.</p>
+          <p>Task-based freelance work on the god-game RTS <b>The Universim</b>: I modified the game's <b>AI</b>, fixed bugs, and added new content. I refactored the RTS pathfinding (−25% errors) and stabilized the multiplayer servers for 1,000+ players. The game went on to sell <b>over 200,000 copies on Steam</b>.</p>
           <div class="extlinks">
             <a href="https://crytivo.com/en/the-universim" target="_blank" rel="noopener">Official site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
             <a href="https://steamspy.com/app/352720" target="_blank" rel="noopener">SteamSpy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
